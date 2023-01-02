@@ -1,10 +1,10 @@
 # Chapter02-1
-### 파이썬 완전 기초
 
-# print 사용법
-참조 : https://www.python-course.eu/python3_formatted_output.php
+- 파이썬 완전 기초
+- print 사용법
+- 참조 : https://www.python-course.eu/python3_formatted_output.php
 
-# 기본 출력
+## 기본 출력
 
 ```python
 print('Python Start!')
@@ -14,8 +14,9 @@ print("""Python Start!""")
 print()
 ```
 
-# seperator 옵션
-사이에 뭐가 들어갈지 결정한다.
+## seperator 옵션
+
+- 사이에 뭐가 들어갈지 결정한다.
 
 ```python
 print('P', 'Y', 'T', 'H', 'O', 'N', sep = '')
@@ -24,8 +25,8 @@ print('python', 'google.com', sep = '@')
 print()
 ```
 
-# end 옵션
-한 줄로 출력한다.
+## end 옵션
+- 한 줄로 출력한다.
 
 ```python
 print('Welcome to', end = ' ')
@@ -34,8 +35,8 @@ print('Web Site')
 print()
 ```
 
-# file 옵션 
-파일 출력 형태를 결정
+## file 옵션 
+- 파일 출력 형태를 결정
 
 ```python
 import sys
@@ -43,8 +44,8 @@ print('Learn Python', file = sys.stdout)
 print()
 ```
 
-# format 사용
-(d(정수) : 3, s(문자열) : 'python', f(실수) : 3.141592)
+## format 사용
+- d(정수) : 3, s(문자열) : 'python', f(실수) : 3.141592
 
 ```python
 print('%s %s' %('one', 'two')) # format을 정확하게 알고 있을 때
@@ -53,7 +54,7 @@ print('{1} {0}'.format('one', 'two')) # 인덱스가 0부터 시작하기 때문
 print()
 ```
 
-# %s
+## %s
 
 ```python
 print('%10s' %('nice')) # 숫자가 오면 자릿수를 의미
@@ -71,7 +72,7 @@ print('{:10.5}'.format('pythonstudy')) # 10칸 중에 5개만 출력
 print()
 ```
 
-# %d
+## %d
 
 ```python
 print('%d %d' %(1,2))
@@ -82,7 +83,7 @@ print('{:4d}'.format(42))
 print()
 ```
 
-# %f
+## %f
 
 ```python
 print('%f' %3.14343434343434343) # %정수부.소수부f
