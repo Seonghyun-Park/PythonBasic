@@ -48,8 +48,9 @@ print(type(tuple))
 print(type(set))
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210560498-17a4c88b-f110-416b-bd0c-3bb071dd3193.png)
 
-# 숫자형 연산자
+## 숫자형 연산자
 
 ```python
 """
@@ -80,6 +81,7 @@ print(i2)
 print(big_int)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210560621-4846de03-8f50-47af-ba34-a547d253cd21.png)
 
 ## 실수 선언
 
@@ -99,6 +101,7 @@ print(f3)
 print(f4)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210560678-76e15869-4dc2-495d-83e6-f94e52c5f3ee.png)
 
 ## 연산 실습
 
@@ -120,6 +123,18 @@ print("f1 + f2 : ", f1 + f2)
 print("big_int1 + big_int2 : ", big_int1 + big_int2)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210561156-e4fa5ccb-0e23-49e3-aed2-49b0df231d7d.png)
+
+## -
+
+```python
+print(">>>>> -")
+print("i1 - i2: ", i1 - i2) 
+print("f1 - f2: ", f1 - f2)
+print("big_int1 - big_int2: ", big_int1 - big_int2)
+print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210561414-fe616551-d424-4b49-b6eb-85c1edbb1c2a.png)
 
 ## *
 
@@ -130,6 +145,51 @@ print("f1 * f2 : ", f1 * f2)
 print("big_int1 * big_int2 : ", big_int1 * big_int2)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210561476-cce0e80d-beaa-4e91-b48c-f44bee6d7c61.png)
+
+## /
+
+```python
+print(">>>>> /")
+print("i2 / i1: ", i2 / i1)
+print("f2 / f1: ", f2 / f1)
+print("big_int2 / big_int1: ", big_int2 / big_int1)
+print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210561743-47ffa4e5-a7f8-41ff-90d0-09493e963b6c.png)
+
+## //
+
+```python
+print(">>>>> //")
+print("i2 // i1: ", i2 // i1) 
+print("f2 // f1: ", f2 // f1)
+print("big_int2 // big_int1: ", big_int2 // big_int1)
+print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210561790-114cc8df-0226-4b6f-a5e4-62108bfab5e4.png)
+
+## %
+
+```python
+print(">>>>> %")
+print("i1 % i2 :", i1 % i2)
+print("f1 % f2 :", f1 % f2)
+print("big_int1 % big_int2 :", big_int1 % big_int2)
+print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210561844-6c223f54-00c4-43e5-9416-8f129006a5a8.png)
+
+## **
+
+```python
+print(">>>>> **")
+print("2 ** 3: ", 2 ** 3)
+#print("i1 ** i2: ", i1 ** i2) 
+print("f1 ** f2: ", f1 ** f2)
+print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210561896-dc6d3d74-2e53-42f1-a1fb-49895a7634d2.png)
 
 ## 형 변환 실습
 
@@ -146,6 +206,7 @@ d = 12.7
 print(type(a), type(b), type(c), type(d))
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210561956-5b464269-8191-4979-be3d-660a65a811c5.png)
 
 ## 형 변환
 
@@ -160,6 +221,7 @@ print(complex('3')) # 문자형 -> 숫자형
 print(complex(False))
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210562020-b979caef-e9b7-4ce7-8f46-4e12f97f8073.png)
 
 ## 수치 연산 함수
 
@@ -170,6 +232,7 @@ print(x, y)
 print(pow(5,3), 5**3)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210562082-72045ae0-4cd0-4574-9e83-6d8be1064255.png)
 
 ## 외부 모듈
 
@@ -179,3 +242,4 @@ import math
 print(math.ceil(5.1)) # x 이상의 수 중에서 가장 작은 정수
 print(math.pi)
 ```
+![image](https://user-images.githubusercontent.com/121333241/210562143-bf643907-7b41-4842-a293-9796534d144c.png)
