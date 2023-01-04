@@ -14,6 +14,7 @@ print(type(str1), type(str2), type(str3), type(str4))
 print(len(str1), len(str2), len(str3), len(str4)) # 공백을 포함한 문자열의 길이
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210562688-d6ae16c3-d13f-40c2-9376-5b4f47e151fb.png)
 
 ## 빈 문자열
 
@@ -25,8 +26,9 @@ print(type(str1_t1), len(str1_t1))
 print(type(str2_t2), len(str2_t2))
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210562730-f57e6cac-046c-45f7-89a2-c04e45214002.png)
 
-# 이스케이프 문자 사용
+## 이스케이프 문자 사용
 
 ```python
 """
@@ -47,18 +49,25 @@ print()
 print("I'm Boy")
 print('I\'m Boy') # \ 뒤의 문자가 그대로 출력
 print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210562973-7bf7d783-4cb5-450a-ba9b-76675e3f83bc.png)
 
+```python
 print('a \t b') # tab칸 만큼 띄운다.
 print('a \n b') # 줄바꿈
 print('a \"\" b') # "" 출력
 print()
+```
+![image](https://user-images.githubusercontent.com/121333241/210563268-54fa5a64-9449-40e0-87c8-8b50af1ed2c6.png)
 
+```python
 escape_str1 = "Do you have a \"retro games\"?"
 print(escape_str1)
 escape_str2 = 'What\'s on TV?'
 print(escape_str2)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563309-b584b93f-77cf-4d4a-9718-4560de7ba117.png)
 
 ## 탭, 줄바꿈
 
@@ -70,6 +79,7 @@ print(t_s1)
 print(t_s2)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563364-307e344d-a4af-4989-9efa-c77e6227e8d5.png)
 
 ## Raw String (\(역슬래시)를 신경쓰지 않고 그대로 표시)
 
@@ -78,6 +88,7 @@ raw_s = r'D:\python\test' # r'' 형태로 사용
 print(raw_s)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563451-5bc5161c-1472-4fc4-a515-8ef1f3261d7e.png)
 
 ## 멀티라인 입력
 
@@ -92,6 +103,7 @@ Test
 '''
 print(multi_str)
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563497-2b2d9d62-baa2-43d3-97b5-04442e001c2b.png)
 
 ## 문자열 연산
 
@@ -108,6 +120,7 @@ print('n' in str_o1)
 print('P' not in str_o2) # str_o2에 'P'라는 단어가 없나요?
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563543-4a838b64-3f88-402e-9ec3-df11284d8227.png)
 
 ## 문자열 형 변환
 
@@ -117,6 +130,7 @@ print(str(10.1))
 print(str(True), type(str(True)))
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563605-5a556fcd-29d2-4e45-a21a-8c48f3f01dd7.png)
 
 ## 문자열 함수(upper, isalnum, startswith, count, endwith, isalpha...)
 
@@ -128,6 +142,7 @@ print("sorted: ", sorted(str_o1)) # 정렬 함수
 print("split: ", str_04.split(' ')) # 특정 단어를 분리
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563668-b08eb659-3f5a-4d24-84bd-bdc9615a95d7.png)
 
 ## 반복(시퀀스: 순서가 있는 배열 형태)
 
@@ -143,6 +158,7 @@ for i in im_str:
     print(i)
 print()
 ```    
+![image](https://user-images.githubusercontent.com/121333241/210563798-514efa47-3e14-4d4b-b847-86bf1ab749cd.png)
     
 ## 슬라이싱    
 
@@ -165,6 +181,7 @@ print(str_sl[::2]) # 처음부터 끝까지 2칸씩 출력
 print(str_sl[::-1]) # 오른쪽에서부터 출력(역으로 출력)
 print()
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563886-c34f536c-725b-4f20-9c8a-e905c3a383be.png)
 
 ## 아스키 코드 (또는 유니코드)
 
@@ -174,3 +191,4 @@ a = 'z'
 print(ord(a)) # z의 아스키코드 값
 print(chr(122)) # 아스키코드 122의 문자
 ```
+![image](https://user-images.githubusercontent.com/121333241/210563939-d9952d31-9037-414e-96dc-f642b66de2fe.png)
