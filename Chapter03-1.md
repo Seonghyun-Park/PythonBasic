@@ -234,7 +234,7 @@ print()
 ```
 ![image](https://user-images.githubusercontent.com/121333241/210562082-72045ae0-4cd0-4574-9e83-6d8be1064255.png)
 
-## 외부 모듈!!
+## 외부 모듈
 
 ```python
 import math
