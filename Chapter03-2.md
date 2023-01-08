@@ -61,8 +61,8 @@ print()
 ![image](https://user-images.githubusercontent.com/121333241/210563268-54fa5a64-9449-40e0-87c8-8b50af1ed2c6.png)
 
 ```python
-escape_str1 = "Do you have a \"retro games\"?"
-print(escape_str1)
+escape_str1 = "Do you have a \"retro games\"?" 
+print(escape_str1) # \ 뒤의 문자가 그대로 출력
 escape_str2 = 'What\'s on TV?'
 print(escape_str2)
 print()
@@ -72,11 +72,11 @@ print()
 ## 탭, 줄바꿈
 
 ```python
-t_s1 = "Click \t Start!"
+t_s1 = "Click \t Start!" 
 t_s2 = "New Line \n Check!"
 
-print(t_s1)
-print(t_s2)
+print(t_s1) # tab칸만큼 띄어서 출력
+print(t_s2) # 줄을 바꿔서 
 print()
 ```
 ![image](https://user-images.githubusercontent.com/121333241/210563364-307e344d-a4af-4989-9efa-c77e6227e8d5.png)
