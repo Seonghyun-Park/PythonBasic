@@ -8,7 +8,7 @@
 ```python
 a = []
 b = list()
-c = [70, 75, 80, 85] # Len
+c = [70, 75, 80, 85] 
 d = [1000, 10000, 'Ace', 'Base', 'Captine']
 e = [1000, 10000, ['Ace', 'Base', 'Captine']]
 f = [21.42, 'footbar', 3, 4, False, 3.14159]
