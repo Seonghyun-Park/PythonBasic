@@ -1,4 +1,5 @@
 # Chapter03-3
+
 - 파이썬 리스트
 - 자료구조에서 중요
 - 리스트 자료형 (순서 O, 중복 O, 수정 O, 삭제 O)
@@ -65,6 +66,7 @@ print()
 ![image](https://user-images.githubusercontent.com/121333241/211697311-60ebf958-8f05-4128-8a56-97ba28b423c4.png)
 
 # Identity(id)
+
 - 파이썬의 효율성때문에 리스트 역시도 하나의 주소값을 공유한다.
 
 ```python
@@ -108,7 +110,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211697476-d57fb5d1-819c-487e-aad7-06c11f9bf27f.png)
 
 ### append( )
+
 - 끝 부분에 데이터를 삽입할 때 쓰는 함수
+
 ```python
 a.append(10) # 끝 부분에 데이터를 삽입할 때 쓰는 함수
 print('a - ', a)
@@ -117,7 +121,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211697512-5f62cd80-06d5-400a-b69c-0b8342c145af.png)
 
 ### sort( ) 
+
 -  오름차순으로 정렬하는 함수
+
 ```python
 a.sort() # 오름차순으로 정렬
 print('a - ', a)
