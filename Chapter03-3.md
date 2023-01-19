@@ -132,7 +132,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211698339-42ab0e5a-218e-44e4-b148-2be86102bec3.png)
 
 ### reverse( )
+
 - 역순으로 출력하는 함수
+
 ```python
 a.reverse() # 역순으로 출력
 print('a - ', a)
@@ -141,7 +143,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211698389-ff38bd9f-572d-4f12-82ad-8491892fa745.png)
 
 ### index( )
+
 - 해당 인덱스의 값을 가져오는 함수
+
 ```python
 print('a - ', a.index(3), a[3]) # 인덱스를 가져오는 함수
 ```
@@ -149,7 +153,9 @@ print('a - ', a.index(3), a[3]) # 인덱스를 가져오는 함수
 ![image](https://user-images.githubusercontent.com/121333241/211698440-8f3af34d-7914-4b1b-8401-53b93132eee6.png)
 
 ### insert( )
+
 - 원하는 위치에 삽입하는 함수
+
 - insert(a, b) : a번째 위치에 b를 추가한다.
 ```python
 a.insert(2,7) # 2번째 위치에 7추가 (원래 값들은 뒤로 밀린다.)
@@ -161,7 +167,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211698669-56c51606-3eb1-4df6-8813-4ccc44917aaf.png)
 
 ### remove( )
+
 - 원하는 원소를 삭제하는 함수
+
 ```python
 a.remove(10) # 원하는 원소 삭제
 print('a - ', a)
@@ -171,7 +179,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211698784-5985bcc9-d0e4-4b45-a356-18901e3c7c59.png)
 
 ### pop( )
+
 - 마지막에 있는 원소를 빼내는 함수
+
 ```python
 print('a - ', a.pop()) # 마지막에 있는 원소를 가져온다.
 print('a - ', a) # 마지막 원소는 꺼내진 채 나머지 원소들로 리스트를 다시 구성
@@ -182,7 +192,9 @@ print('a - ', a)
 ![image](https://user-images.githubusercontent.com/121333241/211698886-6dc48b0f-5050-420c-95e9-4c8ec8537428.png)
 
 ### count( )
+
 - 찾고자 하는 값이 몇 개 있는지 확인하는 함수
+
 ```python
 print('a - ', a.count(4)) # 찾고자 하는 값이 몇개가 중복되어 있는지 확인 
 ```
@@ -190,7 +202,9 @@ print('a - ', a.count(4)) # 찾고자 하는 값이 몇개가 중복되어 있�
 ![image](https://user-images.githubusercontent.com/121333241/211698920-02de7c7e-d075-4233-b76d-52bae29f3178.png)
 
 ### extend( )
+
 - 확장하는 함수
+
 ```python
 ex = [8, 9]
 a.extend(ex)
@@ -204,6 +218,7 @@ print('a - ', a)
 
 
 ## 반복문 활용
+
 ```python
 while a:
     data = a.pop()
