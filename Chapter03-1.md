@@ -1,4 +1,5 @@
 # Chapter03-1
+
 - 파이썬 기초 자료형
 - 숫자형
 
@@ -48,6 +49,7 @@ print(type(tuple))
 print(type(set))
 print()
 ```
+
 ![image](https://user-images.githubusercontent.com/121333241/210560498-17a4c88b-f110-416b-bd0c-3bb071dd3193.png)
 
 ## 숫자형 연산자
@@ -81,6 +83,7 @@ print(i2)
 print(big_int)
 print()
 ```
+
 ![image](https://user-images.githubusercontent.com/121333241/210560621-4846de03-8f50-47af-ba34-a547d253cd21.png)
 
 ## 실수 선언
@@ -101,6 +104,7 @@ print(f3)
 print(f4)
 print()
 ```
+
 ![image](https://user-images.githubusercontent.com/121333241/210560678-76e15869-4dc2-495d-83e6-f94e52c5f3ee.png)
 
 ## 연산 실습
@@ -123,6 +127,7 @@ print("f1 + f2 : ", f1 + f2)
 print("big_int1 + big_int2 : ", big_int1 + big_int2)
 print()
 ```
+
 ![image](https://user-images.githubusercontent.com/121333241/210561156-e4fa5ccb-0e23-49e3-aed2-49b0df231d7d.png)
 
 ## -
@@ -134,6 +139,7 @@ print("f1 - f2: ", f1 - f2)
 print("big_int1 - big_int2: ", big_int1 - big_int2)
 print()
 ```
+
 ![image](https://user-images.githubusercontent.com/121333241/210561414-fe616551-d424-4b49-b6eb-85c1edbb1c2a.png)
 
 ## *
