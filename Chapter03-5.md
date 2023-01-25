@@ -43,6 +43,8 @@ print('f -', type(f), f)
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214572761-ab1c139e-7d0e-45fa-97f3-b36e50b8af58.png)
+
 ## 출력
 
 ```python
@@ -56,6 +58,8 @@ print('f -', f.get('Age'))
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214572858-51eddc33-26b2-4da1-a3e1-652d2a23c269.png)
+
 ## 딕셔너리 추가
 
 ```python
@@ -66,6 +70,8 @@ print('a -', a)
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214572927-9aca12fd-da0f-4ca2-88d2-bb9e4452eca2.png)
+
 ## 딕셔너리 길이 (키의 개수가 나온다.)
 
 ```python
@@ -75,6 +81,8 @@ print('c -', len(c))
 print('f -', len(f))     
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214573036-8751d6d6-aa00-4ad8-ba82-d95f6e697b6e.png)
 
 ## dict_keys, dict_values, dict_items 
 
@@ -93,6 +101,8 @@ print('b -', list(b.keys()))
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214573107-c5bf4978-2c63-47eb-8ae3-2f476d0e4c2e.png)
+
 ## dict_values (value 값들만 가져온다.)
 
 ```python
@@ -105,6 +115,8 @@ print('b -', list(b.values()))
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214573173-d46f0275-552b-4789-ba1c-50c07f3a72aa.png)
+
 ## dict_items (키와 value를 모두 가져온다.)
 
 ```python
@@ -116,6 +128,8 @@ print('a -', list(a.items()))
 print('b -', list(b.items()))
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214573481-d9911d7e-b4d2-42db-aa69-9b66a01c08e1.png)
 
 ## pop 연산자
 
@@ -135,12 +149,16 @@ print('f -', f)
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214573605-5af58f72-7996-45ad-9da8-1d2f8a05e616.png)
+
 ## in 연산자 
 
 ```python
 print('a -', 'birth' in a) # a에 'birth'라는 단어가 있으면 True, 없으면 False
 print('d -', 'City' in d)
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214573690-c296db9a-e6df-47fc-8aae-c6cc8c1a95b4.png)
 
 ## 수정
 
@@ -159,3 +177,5 @@ temp = {'address':'Busan'}
 a.update(temp)
 print('a -', a)
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214573761-0ebe5545-d7e1-4c65-b442-dcddddb4983a.png)
