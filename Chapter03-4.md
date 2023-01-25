@@ -27,6 +27,8 @@ print('e -', list(e[-1][1])) # list로 형 변환
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214571908-42fbecd6-95ce-4e18-a5cb-eb82a98ec251.png)
+
 ## 수정 X
 - d[0] = 1500 -> 에러 발생
 
@@ -40,6 +42,8 @@ print('e -', e[2][1:3])
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214572061-6a574989-cea6-451f-bad2-d1d05e8abbf7.png)
+
 ## 튜플 연산
 
 ```python
@@ -48,6 +52,8 @@ print('c + d', c + d)
 print('c * 3', c * 3)
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214572133-8bea8742-1304-434c-8bae-7c66a682acdb.png)
 
 ## 튜플 함수
 
@@ -58,6 +64,8 @@ print('a -', a.index(3)) # 숫자 3의 위치가 어딘지 확인
 print('a -', a.count(2)) # 숫자 2가 몇 개 있는지 확인
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214572207-c032801d-b20a-4dfa-90e6-4c26e6c9124f.png)
 
 ## 팩킹 & 언팩킹 (Packing & Unpacking)
 
@@ -72,6 +80,8 @@ print(t[-1])
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/214572289-2a303356-cbec-47d5-88db-aacef3c9bd41.png)
+
 ### 언팩킹 1 (괄호가 벗겨진다.)
 
 ```python
@@ -82,6 +92,8 @@ print(type(x1), type(x2), type(x3), type(x4))
 print(x1, x2, x3, x4)
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214572374-ef73c724-ae6b-43ef-b8a2-ce44f36fb4e3.png)
 
 ## 팩킹 & 언팩킹
 
@@ -96,3 +108,5 @@ print(t3)
 print(x1, x2, x3)
 print(x4, x5, x6)
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/214572437-87014aca-4062-4956-a111-629a5528119c.png)
