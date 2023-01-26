@@ -72,7 +72,8 @@ print()
 
 ![image](https://user-images.githubusercontent.com/121333241/214572927-9aca12fd-da0f-4ca2-88d2-bb9e4452eca2.png)
 
-## 딕셔너리 길이 (키의 개수가 나온다.)
+## 딕셔너리 길이 
+- 키의 개수가 나온다.
 
 ```python
 print('a -', len(a))
@@ -88,7 +89,8 @@ print()
 
 - 반복문(_iter_)에서 사용 가능
 
-## dict_keys (key 값들만 가져온다.)
+## dict_keys 
+- key 값들만 가져온다.
 
 ```python
 print('a -', a.keys())            
@@ -117,7 +119,8 @@ print()
 
 ![image](https://user-images.githubusercontent.com/121333241/214573173-d46f0275-552b-4789-ba1c-50c07f3a72aa.png)
 
-## dict_items (키와 value를 모두 가져온다.)
+## dict_items 
+- 키와 value를 모두 가져온다.
 
 ```python
 print('a -', a.items())            
