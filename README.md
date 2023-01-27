@@ -13,3 +13,5 @@
 ### :orange_book: [Chapter03-4](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter03-4.md) 
 
 ### :green_book: [Chapter03-5](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter03-5.md)
+
+### :blue_book: [Chapter03-6](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter03-6.md) 
