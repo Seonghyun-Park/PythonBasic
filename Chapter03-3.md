@@ -216,7 +216,6 @@ print('a - ', a)
 ## 삭제
 - remove, pop, del
 
-
 ## 반복문 활용
 
 ```python
