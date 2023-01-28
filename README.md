@@ -1,4 +1,4 @@
-# :notebook_with_decorative_cover: PythonBasic
+## :notebook_with_decorative_cover: 프로그래밍 시작하기 : 파이썬 입문 (Inflearn Original)
 
 <details>
 <summary> :file_folder: Section 2. 파이썬 완전 기초 </summary>
