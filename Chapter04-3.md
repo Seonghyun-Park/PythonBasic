@@ -16,7 +16,9 @@ while n > 0: # n > 0 조건이 만족할 때까지 반복
     n = n-1
 print()
 ```
-    
+
+![image](https://user-images.githubusercontent.com/121333241/215326391-d6a18092-00ba-4ee9-94ad-66611e35430f.png)
+
 ## 예제 2
 
 ```python
@@ -25,6 +27,8 @@ a = ['foo', 'bar', 'baz']
 while a:
     print(a.pop())
 ```    
+
+![image](https://user-images.githubusercontent.com/121333241/215326423-69304629-2c74-4fcf-b02a-f117f3cfba89.png)
 
 ## 예제 3
 - if 중첩, break, continue
@@ -40,6 +44,8 @@ print('Loop Ended.')
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/215326435-3cf853f6-aa95-478c-90b0-9ad373c685ee.png)
+
 ## 예제 4
 
 ```python
@@ -53,6 +59,8 @@ print('Loop Ended.')
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/215326446-1ecf99d2-9c40-4e20-82e7-75e5a4089a53.png)
+
 ## 예제 5
 
 ```python
@@ -65,6 +73,8 @@ while i <= 10:
     i += 1
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/215326475-b2b14c0c-f412-4ab7-994b-82a8c5263faa.png)
 
 ## 예제 6
 - while - else 구문
@@ -80,6 +90,8 @@ else:
     print('else out')
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/215326492-9aecf5fb-32d9-4929-af1e-9c5eda9cdd49.png)
 
 ## 예제 7
 
@@ -97,6 +109,8 @@ else:
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/215326504-f8e96cee-cda3-4a5a-be4b-fcd0f45b5e5f.png)
+
 ## 예제 8
 
 ```python
@@ -107,6 +121,8 @@ while True: # True일 때이기 때문에 무한 실행
         break # break
     print(a.pop())
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/215326512-1b7736c1-f651-4b5c-9503-ef254d9c56d3.png)
 
 ## 무한 반복 조심
 ```python
