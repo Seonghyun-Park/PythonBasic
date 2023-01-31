@@ -31,6 +31,7 @@ while a:
 ![image](https://user-images.githubusercontent.com/121333241/215326423-69304629-2c74-4fcf-b02a-f117f3cfba89.png)
 
 ## 예제 3
+
 - if 중첩, break, continue
 
 ```python
@@ -77,6 +78,7 @@ print()
 ![image](https://user-images.githubusercontent.com/121333241/215326475-b2b14c0c-f412-4ab7-994b-82a8c5263faa.png)
 
 ## 예제 6
+
 - while - else 구문
 
 ```python
@@ -125,6 +127,7 @@ while True: # True일 때이기 때문에 무한 실행
 ![image](https://user-images.githubusercontent.com/121333241/215326512-1b7736c1-f651-4b5c-9503-ef254d9c56d3.png)
 
 ## 무한 반복 조심
+
 ```python
 # while True:
 #     print('Foo')
