@@ -55,7 +55,7 @@
 </details>
 
 <details>
-<summary> :file_folder: Section 5. 파이썬 함수 및 입력 </summary>
+<summary> :file_folder: Section 6. 파이썬 클래스 및 모듈, 패키 </summary>
 <div markdown="1">
 
 #### :pencil2: [Chapter06-1](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter06-1.md)
