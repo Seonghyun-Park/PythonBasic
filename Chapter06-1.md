@@ -156,4 +156,4 @@ print(d.speak('Mung Mung'))
 
 ![image](https://user-images.githubusercontent.com/121333241/216542202-143b9de1-8900-4173-960f-2f8222e4ac0c.png)
 
-### 하나의 클래스를 이용해서 여러가지 종류로 인스턴스화 시키고 각각의 인스턴스는 자기만의 정보를 가지고 있다.
+### :arrow_forward: 하나의 클래스를 이용해서 여러가지 종류로 인스턴스화 시키고 각각의 인스턴스는 자기만의 정보를 가지고 있다.
