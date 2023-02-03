@@ -23,11 +23,12 @@ class Dog1: # object 상속
 print(Dog1)
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216541914-c4e29929-deac-4995-b9b6-af9bf9b4f783.png)
+
 ### 인스턴스화
 ```python
 a = Dog1("mikky", 2)
 b = Dog1("baby", 3)
-print()
 ```
 
 ### 비교
@@ -36,12 +37,16 @@ print(a==b, id(a), id(b))
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216541947-308ad84c-2869-4b99-8ba8-8a4642401039.png)
+
 ### 네임스페이스
 ```python
 print('dog1', a.__dict__)
 print('dog2', b.__dict__)
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216541973-d912aaab-50c1-45e1-8b52-e30f2abe6363.png)
 
 ### 인스턴스 속성 확인
 ```python
@@ -56,6 +61,8 @@ print(a.species) # 인스턴스화 된 변수로도 접근이 가능
 print(b.species) 
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216542040-79d634c3-6b7c-44eb-8ffe-31c3eee9ee1c.png)
 
 ## 예제 2
 - self 이해
@@ -80,6 +87,8 @@ SelfTest.func1() # 클래스로 직접 호출 - 매개 변수가 아무것도 �
 SelfTest.func2(f) # 인스턴스를 넘겨준다.
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216542110-938d9a8c-0556-4ad6-8199-17829989bb67.png)
 
 ## 예제 3
 - 클래스 변수, 인스턴스 변수
@@ -113,6 +122,8 @@ print('after :', Warehouse.__dict__)
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216542512-282733e5-ba19-43df-969d-08a0d25176c6.png)
+
 ## 예제 4
 
 ```python
@@ -142,5 +153,7 @@ print(d.info())
 print(c.speak('Wal Wal'))
 print(d.speak('Mung Mung'))
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216542202-143b9de1-8900-4173-960f-2f8222e4ac0c.png)
 
 ### 하나의 클래스를 이용해서 여러가지 종류로 인스턴스화 시키고 각각의 인스턴스는 자기만의 정보를 가지고 있다.
