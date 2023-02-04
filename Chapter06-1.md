@@ -26,12 +26,14 @@ print(Dog1)
 ![image](https://user-images.githubusercontent.com/121333241/216541914-c4e29929-deac-4995-b9b6-af9bf9b4f783.png)
 
 ### 인스턴스화
+
 ```python
 a = Dog1("mikky", 2)
 b = Dog1("baby", 3)
 ```
 
 ### 비교
+
 ```python
 print(a==b, id(a), id(b))
 print()
@@ -40,6 +42,7 @@ print()
 ![image](https://user-images.githubusercontent.com/121333241/216541947-308ad84c-2869-4b99-8ba8-8a4642401039.png)
 
 ### 네임스페이스
+
 ```python
 print('dog1', a.__dict__)
 print('dog2', b.__dict__)
@@ -49,6 +52,7 @@ print()
 ![image](https://user-images.githubusercontent.com/121333241/216541973-d912aaab-50c1-45e1-8b52-e30f2abe6363.png)
 
 ### 인스턴스 속성 확인
+
 ```python
 print('{} is {} and {} is {}'.format(a.name, a.age, b.name, b.age))
 print()
