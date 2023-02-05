@@ -62,5 +62,7 @@
 
 #### :pencil2: [Chapter06-2](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter06-2.md)
 
+#### :pencil2: [Chapter06-3](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter06-3.md)
+
 </div>
 </details>
