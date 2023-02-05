@@ -30,7 +30,7 @@ def power(x, y):
 # print('-' * 15)
 ```
 
-# __name__ 사용
+## __name__ 사용
 - 현재(main) 파일에서 실행할 때만 실행되고 다른 파일에서 실행하면 실행되지 않는다.
 - import할 때 불필요한 출력을 막기 위해서 
 - 이해를 돕기 위한 테스트 부분
@@ -46,6 +46,8 @@ if __name__ == "__main__":
     print(power(5, 3))
     print('-' * 15)
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216807778-69e91b64-3ce2-439f-bcde-fe4f87fab70c.png)
 
 ## 모듈 사용 실습
 
@@ -70,3 +72,5 @@ print(type(sys.path))
 import Chapter06_02
 print(Chapter06_02.add(10, 1000))
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216807809-b15878fc-886f-4bd0-88eb-e145596cea4f.png)
