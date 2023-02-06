@@ -20,6 +20,11 @@ if True
     pass
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216894648-6e97e7f8-c892-414e-ad3b-1ba666f38f0d.png)
+![image](https://user-images.githubusercontent.com/121333241/216894706-42231120-c58f-4758-a3a4-8e0b4232eecf.png)
+![image](https://user-images.githubusercontent.com/121333241/216894760-ce5e0ec0-d3a6-47bc-83ef-5eec6958c329.png)
+
+
 ## NameError
 - 선언하지 않은, 없는 변수를 참조할 때 발생하는 오류
 
@@ -29,12 +34,16 @@ b = 15
 print(c)
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216894952-27a083f2-67ef-439e-be0d-47c8ec86d31b.png)
+
 ## ZeroDivisionError 
 - 0으로 나눴을 때 발생하는 오류
 
 ```python
 print(100 / 0)
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216895019-76db823b-6c0d-4d77-bada-103b94290ac5.png)
 
 ## IndexError
 - 원소가 맞지 않을 때 발생하는 오류
@@ -48,6 +57,9 @@ print(x.pop())
 print(x.pop())
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216895071-0d8134b4-a665-4ae8-ad34-0ce0b0d946ed.png)
+![image](https://user-images.githubusercontent.com/121333241/216895123-d2629725-c448-4f37-8fbc-6136c63aea23.png)
+
 ## KeyError
 - 딕셔너리 구조에서 없는 key를 호출할 때 발생하는 오류
 
@@ -57,6 +69,9 @@ print(dic['hobby'])
 print(dic.get('hobby')) # get함수를 사용하는 것이 더 안전하다.
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216895228-11bab2dd-7b46-4a67-99d6-15d1655e1736.png)
+![image](https://user-images.githubusercontent.com/121333241/216895261-eb26e682-3731-4449-aa2d-b05b2a196070.png)
+
 ## AttributeError
 - 모듈, 클래스에 있는 잘못된 속성 사용 예외
 
@@ -64,6 +79,8 @@ print(dic.get('hobby')) # get함수를 사용하는 것이 더 안전하다.
 import time
 print(time.time2())
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216895391-bec3e1e8-a8bc-47c8-a4e0-eeb666bfb083.png)
 
 ## ValueError
 - 값이 존재하지 않을 때 발생하는 에러
@@ -75,12 +92,16 @@ print(x)
 x.remove(200)
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216895464-4814e818-0310-4f9b-8a2c-87f502c3c2da.png)
+
 ## FileNotFoundError
 - 파일이 존재하지 않을 때 발생하는 에러
 
 ```python
 f = open('test.txt')
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216895508-5a7a5441-bab1-42ac-91d7-6529de3eb7e7.png)
 
 ## TypeError
 - 자료형에 맞지 않는 연산을 수행할 경우
@@ -93,11 +114,19 @@ z = 'test'
 print(x + y)
 print(x + z)
 print(y + z)
+```
 
+![image](https://user-images.githubusercontent.com/121333241/216895580-ac17b243-d485-4446-b4eb-9f4f77fad6a7.png)
+![image](https://user-images.githubusercontent.com/121333241/216895619-b5d974cf-9c6f-4b81-8d68-c38441d7d88e.png)
+![image](https://user-images.githubusercontent.com/121333241/216895664-3e9816c0-4358-48f4-99ad-4100480ac783.png)
+
+```python
 # 올바른 형 변환
 print(x + list(y))
 print(x + list(z))
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216895763-8e1939bc-4343-43af-9211-0a36a46ec4a7.png)
 
 # 예외 처리
 - try - exception - else - finally
@@ -127,6 +156,8 @@ else:
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216895921-03bfc305-9cd1-4699-b6d6-3fbde217671c.png)
+
 ## 예제 2
 
 ```python
@@ -141,6 +172,8 @@ else:
     
 print()
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216895992-57ee31fd-d927-4642-9ff3-67dbb2a45331.png)
 
 ## 예제 3
 
@@ -160,6 +193,8 @@ finally:
 print()
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/216896057-533de96d-f4e0-4bc0-8b24-1c60446da2fc.png)
+
 ## 예제 4
 - 예외 발생 : raise
 - raise 키워드로 예외 직접 발생
@@ -177,3 +212,5 @@ except ValueError:
 else:
     print('Ok! else!')
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/216896123-ade965df-7604-4d07-906d-28a85d5bcfc4.png)
