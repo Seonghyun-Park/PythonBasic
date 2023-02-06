@@ -66,3 +66,13 @@
 
 </div>
 </details>
+
+
+<details>
+<summary> :file_folder: Section 7. 파이썬 예외처리 </summary>
+<div markdown="1">
+
+#### :pencil2: [Chapter07-1](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter07-1.md)
+
+</div>
+</details>
