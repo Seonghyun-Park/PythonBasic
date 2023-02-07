@@ -76,3 +76,12 @@
 
 </div>
 </details>
+
+<details>
+<summary> :file_folder: Section 8. 파이썬 기본함수 </summary>
+<div markdown="1">
+
+#### :pencil2: [Chapter08-1](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter08-1.md)
+
+</div>
+</details>
