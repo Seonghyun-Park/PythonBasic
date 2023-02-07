@@ -22,7 +22,7 @@ print(pow(2, 10))
 
 ![image](https://user-images.githubusercontent.com/121333241/217177347-20030a0f-5d70-4937-a60d-604ca7768235.png)
 
-## round
+## round( )
 - 반올림
 
 ```python
@@ -32,7 +32,7 @@ print(round(5.6)) # 두번째 인자가 없다면 첫째자리에서 바로 반�
 
 ![image](https://user-images.githubusercontent.com/121333241/217177466-5d25e864-103c-4b7a-b1a5-c89e8038da11.png)
 
-# sum
+# sum( )
 - 반복가능한 객체(Iterable) 합 반환
 
 ```python
