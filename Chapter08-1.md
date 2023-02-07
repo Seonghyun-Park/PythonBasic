@@ -143,7 +143,7 @@ print(id(4))
 ```python
 print(type(3))
 print(type({}))
-print(type({1, 2}))
+print(type({1, 2})) # key와 value가 나누어져 있지 않으면 set
 print(type(()))
 print(type([]))
 ```
@@ -151,7 +151,7 @@ print(type([]))
 ![image](https://user-images.githubusercontent.com/121333241/217178789-53f889ae-5673-4884-a3e2-ef1678bf8279.png)
 
 ## len( ) 
-- 요소의 길이 반환
+- 원소의 길이 반환
 
 ```python
 print(len('abcdefg'))
