@@ -83,5 +83,7 @@
 
 #### :pencil2: [Chapter08-1](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter08-1.md)
 
+#### :pencil2: [Chapter08-2](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter08-2.md)
+
 </div>
 </details>
