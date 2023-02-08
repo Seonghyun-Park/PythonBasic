@@ -87,3 +87,12 @@
 
 </div>
 </details>
+
+<details>
+<summary> :file_folder: Section 9. 파이썬 파일 쓰기 </summary>
+<div markdown="1">
+
+#### :pencil2: [Chapter09-1](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter09-1.md)
+
+</div>
+</details>
