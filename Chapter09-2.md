@@ -30,6 +30,9 @@ with open('./resource/test1.csv', 'r') as f:
         print(' : '.join(c))
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/217744488-579eb3cc-bbb6-4f6a-beaa-e81e8bbfc851.png)
+![image](https://user-images.githubusercontent.com/121333241/217744760-79cf1c85-1978-4f1f-a90e-a74ee48b46a1.png)
+
 ## 예제 2
 
 ```python
@@ -39,6 +42,8 @@ with open('./resource/test2.csv', 'r') as f:
     for c in reader:
         print(c)
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/217744970-95a934e4-c98c-4f54-b2e0-95167fc0b3f2.png)
 
 ## 예제 3
 
@@ -57,7 +62,11 @@ with open('./resource/test1.csv', 'r') as f:
            print(k, v)
         print('----------------')
 ```    
-    
+
+![image](https://user-images.githubusercontent.com/121333241/217745174-9d3c2bb8-c36b-4434-8ed9-146736ed133e.png)
+
+![image](https://user-images.githubusercontent.com/121333241/217745235-ff43aa4a-7639-4c65-b503-59f29e368656.png)
+
 ## 예제 4
 
 ```python
@@ -76,6 +85,8 @@ with open('./resource/write1.csv', 'w', encoding='UTF-8') as f:
         wt.writerow(v)
 ```
 
+![image](https://user-images.githubusercontent.com/121333241/217745357-ca355c30-63f5-42d1-b9fd-0fae786e1d89.png)
+
 ## 예제 5
 
 ```python
@@ -91,3 +102,5 @@ with open('./resource/write2.csv', 'w', encoding='UTF-8') as f:
     for v in w:
         wt.writerow({'One': v[0], 'Two': v[1], 'Three': v[2]})
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/217745411-c75b3bed-773c-46f1-a24e-463e74aac308.png)
