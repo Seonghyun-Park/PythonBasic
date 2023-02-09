@@ -94,5 +94,7 @@
 
 #### :pencil2: [Chapter09-1](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter09-1.md)
 
+#### :pencil2: [Chapter09-2](https://github.com/Seonghyun-Park/PythonBasic/blob/main/Chapter09-2.md)
+
 </div>
 </details>
