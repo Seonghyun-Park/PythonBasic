@@ -97,3 +97,7 @@ while turns > 0:
             # 실패 메시지
             print("You hangman game failed. Bye!")
 ```
+
+![image](https://user-images.githubusercontent.com/121333241/218035555-877c9390-720c-4362-bcec-723d9517d0af.png)
+
+![image](https://user-images.githubusercontent.com/121333241/218035704-ff8db6d2-a29a-4386-8916-9480c902071f.png)
