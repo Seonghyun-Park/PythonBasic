@@ -63,6 +63,7 @@ while turns > 0:
             # 틀린 경우 대시로 처리
             print("_", end=' ') 
             failed += 1 # 한 글자도 못 맞춘 상태이기 때문에 글자 수 만큼 밑줄이 출력된다.
+            
     # 단어 추측이 성공한 경우
     if failed == 0:
         print()
