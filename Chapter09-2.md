@@ -58,7 +58,7 @@ with open('./resource/test1.csv', 'r') as f:
     print()
     
     for c in reader:
-        for k, v in c.items():
+        for k, v in c.items(): # key와 vaule를 둘 다 가져온다.
            print(k, v)
         print('----------------')
 ```    
@@ -82,7 +82,7 @@ with open('./resource/write1.csv', 'w', encoding='UTF-8') as f:
     # print(type(wt))
     
     for v in w:
-        wt.writerow(v)
+        wt.writerow(v) # 줄 단위로 쓴다.
 ```
 
 ![image](https://user-images.githubusercontent.com/121333241/217745357-ca355c30-63f5-42d1-b9fd-0fae786e1d89.png)
